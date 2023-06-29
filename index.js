@@ -1,3 +1,12 @@
+/**
+ * The function `findPairsAndCombinations` takes an array and a target value as input, finds pairs in
+ * the array that sum up to the target value, and then finds combinations of those pairs that sum up to
+ * double the target value.
+ * @param arr - The `arr` parameter is an array of numbers: `[1, 3, 2, 2, -4, -6, -2, 8]`.
+ * @param target - The target value is 4.
+ * @returns The function `findPairsAndCombinations` returns the result of calling the
+ * `findCombinations` function with the `pairsArr` and `target` as arguments.
+ */
 function findPairsAndCombinations(arr, target) {
   let pairsArr = [];
 
